@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS seances (
+  id SERIAL PRIMARY KEY,
+  date DATE NOT NULL,
+  type VARCHAR(50) NOT NULL,
+  duree_minutes INTEGER NOT NULL,
+  notes TEXT
+);
